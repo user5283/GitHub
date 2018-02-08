@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package searchassessment;
 
 import org.junit.After;
@@ -13,6 +8,9 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 /**
+ * This TestSuite class simply runs the two unit test classes listed.
+ *
+ * To run this test suite, select the class in the paroject explorer, right click on it and select RUN.
  *
  * @author Computer Power Plus
  */

@@ -45,9 +45,11 @@ public class SequentialSearchStringTest {
         collection = new String[] {"Hello", "World"};
         assertEquals(true, SequentialSearchString.contains("Hello", collection));
         assertEquals(false, SequentialSearchString.contains("Goodbye", collection));
-        // Test case: case insensitive
-        assertEquals(true, SequentialSearchString.contains("hello", collection));
-        assertEquals(true, SequentialSearchString.contains("wORLD", collection));
+        // Test case: case sensitivity
+        // YOUR TASK: decide whether the sequential search should be case sensitive or not
+        // and set the following assertions to false or true
+//        assertEquals(true, SequentialSearchString.contains("hello", collection));
+//        assertEquals(true, SequentialSearchString.contains("wORLD", collection));
         
         // Test case: array of 1 string
         collection = new String[] {"Hello"};

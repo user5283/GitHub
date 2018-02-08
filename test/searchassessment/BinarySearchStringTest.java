@@ -106,11 +106,28 @@ public class BinarySearchStringTest {
      */
     @Test
     public void testMain() {
-        System.out.println("Not testing main method at this stage");
-//        String[] args = null;
+       System.out.println("NOT YET Testing main method: ");
+        String[] args = null;
+        
+        // YOUR TASK: 
+        // - change the tests below to suit your situation, 
+        // - create further tests for larger collections
+        // - implement measurements in main class and write results to system.out
+        // - when you run the file, copy-paste the test output listing 
+        //   as evidence of your measurements
+ 
+        // Test 100
+//        System.out.println("== 100 items == ");
+//        args = new String[] {"Viens voir papa!", "movieTitles100.txt"};
 //        BinarySearchString.main(args);
-//        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
+//        args = new String[] {"The Professor and His Field Glass", "movieTitles100.txt"};
+//        BinarySearchString.main(args);
+
+ 
+//        // Test 1000
+//        System.out.println("== 1000 items == ");
+//        args = new String[] {"The Professor and His Field Glass", "movieTitles1K.txt"};
+//        BinarySearchString.main(args);
     }
 
 

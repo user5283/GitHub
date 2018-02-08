@@ -47,9 +47,11 @@ public class BinarySearchStringTest {
         collection = new String[] {"Hello", "World"};
         assertEquals(true, BinarySearchString.contains("Hello", collection));
         assertEquals(false, BinarySearchString.contains("Goodbye", collection));
-        // Test case: case insensitive
-        assertEquals(true, BinarySearchString.contains("hello", collection));
-        assertEquals(true, BinarySearchString.contains("wORLD", collection));
+        // Test case: case sensitive or not?
+        // YOUR TASK: DECIDE IF THE BINARY SEARCH NEEDS TO BE CASE SENSITIVE OR NOT
+        // AND SET THE FOLLOWING TESTS TO EITHER FALSE OR TRUE
+        //assertEquals(false, BinarySearchString.contains("hello", collection));
+        //assertEquals(true, BinarySearchString.contains("wORLD", collection));
         
         // Test case: array of 1 string
         collection = new String[] {"Hello"};

@@ -10,5 +10,5 @@
  */
 public class NewClass {
   public String str;
-  
+  public int i=0;
 }
